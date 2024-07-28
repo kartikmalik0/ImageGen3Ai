@@ -8,10 +8,7 @@ import { Input } from "@/components/ui/input";
 import { generateImg } from "@/lib/fal";
 import React from "react";
 import { TrashIcon } from "@radix-ui/react-icons";
-// export const metadata: Metadata = {
-//   title: "Playground",
-//   description: "The OpenAI Playground built using the components.",
-// };
+
 
 export default function PlaygroundPage() {
   const [prompt, setPrompt] = React.useState<string>("");
